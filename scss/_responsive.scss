@@ -1,0 +1,142 @@
+@media (max-width: 1250px) {
+  .card {
+    &__module {
+      font-size: 0.6rem;
+      &__icon {
+        font-size: 0.6rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .card {
+    &__module {
+      font-size: 0.9rem;
+      &__icon {
+        font-size: 0.9rem;
+      }
+    }
+    &__image {
+      height: 300px;
+    }
+    &__scroll-text {
+      height: 80px;
+    }
+    &__title {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+  }
+  .button-row {
+    flex-direction: column;
+    align-items: stretch;
+    & > * {
+      margin-right: 0;
+    }
+    &__icons {
+      flex-direction: row;
+    }
+
+    &--equal-child-width {
+      & > div {
+        font-size: 1.3rem;
+        width: 100%;
+      }
+    }
+    & .button {
+      margin-bottom: 5px;
+    }
+    & .card {
+      margin-bottom: 80px;
+    }
+  }
+  .button {
+    &__icon {
+      font-size: 3rem;
+      margin-right: 30px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -500px;
+    z-index: 21;
+    &--activated {
+      left: 0;
+    }
+  }
+
+  .header {
+    justify-content: center;
+    &-links {
+      display: none;
+    }
+    & .hamburger {
+      display: inline-block;
+      position: absolute;
+      left: 20px;
+      top: 30px;
+      font-size: 1.8rem;
+    }
+  }
+
+  .button-row {
+    &--equal-child-width {
+      & > div {
+        font-size: 1rem;
+        display: none;
+      }
+
+      & > div:first-child {
+        display: block;
+      }
+    }
+
+    & .card {
+      margin-bottom: 70px;
+    }
+  }
+  .card {
+    &__module {
+      font-size: 0.9rem;
+      &__icon {
+        font-size: 0.9rem;
+      }
+    }
+    &__image {
+      height: 141px;
+    }
+    &__scroll-text {
+      height: 50px;
+    }
+    &__title {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    &--consumer-protection {
+      display: none;
+    }
+    &__placeholder {
+      display: none;
+    }
+  }
+
+  .button {
+    &__icon {
+      font-size: 1.5rem;
+      margin-right: 20px;
+    }
+  }
+
+  .disclaimer {
+    overflow: hidden;
+    height: 0;
+    margin-bottom: 0;
+    margin-top: 80px;
+  }
+}

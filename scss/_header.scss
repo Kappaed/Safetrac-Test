@@ -1,0 +1,102 @@
+.header {
+  justify-content: space-between;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.2) -1px 2px 2px 0px;
+  height: 91px;
+  overflow: visible;
+
+  & .hamburger {
+    display: none;
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+
+    &__menu {
+      font-size: 0.8rem;
+      padding: 5px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      border-radius: 4px;
+      background: rgba(0, 0, 0, 0.4);
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+
+      &__item {
+        padding: 10px 0;
+      }
+      &__link {
+        color: white;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &:hover {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+  &__image-link {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  &-logo {
+    width: 108px;
+  }
+  &-links {
+    align-items: center;
+    width: 220px;
+    justify-content: space-between;
+    margin-right: 30px;
+    font-size: 1.8rem;
+  }
+  &-link {
+    display: flex;
+    align-items: center;
+    &--red-dot {
+      position: relative;
+      font-size: 1.5rem;
+      &:before {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: red;
+        right: -10px;
+        top: -5px;
+      }
+    }
+    &--hoverable {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      &:hover .header__profile__menu {
+        opacity: 1;
+        visibility: visible;
+      }
+      &:hover .header-name {
+        text-decoration: underline;
+      }
+    }
+  }
+  &-name {
+    color: rgb(64, 181, 230);
+    font-size: 1rem;
+  }
+  &-icon {
+    &--smaller {
+      font-size: 1.4rem;
+    }
+    &--stacked-smaller {
+      font-size: 1.2rem;
+      color: rgb(124, 144, 163);
+    }
+  }
+}

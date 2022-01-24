@@ -1,0 +1,23 @@
+.nav {
+  background: rgb(53, 80, 125);
+  color: white;
+  width: 200px;
+  min-height: 100vh;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+
+  &-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  &-link {
+    color: white;
+    min-width: 104px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &-icon {
+    margin-right: 10px;
+  }
+}

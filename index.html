@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="background-overlay"></button>
+    <div class="flex-container">
+      <nav class="nav">
+        <ul class="nav-list flex-container">
+          <a class="nav-link" href="#"
+            ><li class="nav-item py-20">
+              <i class="nav-icon fa-solid fa-house"> </i>Dashboard
+            </li></a
+          >
+          <a class="nav-link" href="#"
+            ><li class="nav-item py-20">
+              <i class="nav-icon fa-brands fa-black-tie"> </i>My Training
+            </li></a
+          >
+          <a class="nav-link" href="#"
+            ><li class="nav-item py-20">
+              <i class="nav-icon fa-solid fa-user"> </i>My Account
+            </li></a
+          >
+          <a class="nav-link" href="#"
+            ><li class="nav-item py-20">
+              <i class="nav-icon fa-regular fa-square-check"></i>Task
+            </li></a
+          >
+        </ul>
+      </nav>
+      <main class="main">
+        <header class="header py-10 flex-container">
+          <button class="hamburger">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="#" class="header__image-link">
+            <img
+              src="https://uc.uxpin.com/files/894737/885812/image-e09f49.png"
+              alt="company logo"
+              class="header-logo"
+            />
+          </a>
+          <div class="header-links flex-container">
+            <a class="header-link" href="#"
+              ><i class="fa-solid fa-child header-icon--smaller"></i
+            ></a>
+            <ul class="header-link header-link--hoverable" href="#">
+              <div class="header__profile">
+                <span
+                  class="fa-stack header-icon--stacked-smaller"
+                  style="vertical-align: top"
+                >
+                  <i class="far fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-user fa-stack-1x"></i>
+                </span>
+                <span class="header-name">John Smith</span>
+              </div>
+              <ul class="header__profile__menu">
+                <li class="header__profile__menu__item">
+                  <a href="#" class="header__profile__menu__link">Username</a>
+                </li>
+                <li class="header__profile__menu__item">
+                  <a href="#" class="header__profile__menu__link"
+                    >Edit Profile</a
+                  >
+                </li>
+                <li class="header__profile__menu__item">
+                  <a href="#" class="header__profile__menu__link">Logout</a>
+                </li>
+              </ul>
+            </ul>
+            <button class="header-link header-link--red-dot" href="#">
+              <i class="fa-solid fa-calendar-days"></i>
+            </button>
+          </div>
+        </header>
+        <section class="padded-content">
+          <h1>My Training</h1>
+          <div class="button-row">
+            <button class="button">
+              Compliance <span class="button__counter">4</span>
+            </button>
+            <button class="button button--bg-alt">
+              Soft Skills <span class="button__counter">3</span>
+            </button>
+          </div>
+          <div class="card">
+            <div class="padded-content">
+              <h2 class="card__title">Compliance Courses</h2>
+              <div class="button-row">
+                <button class="button">Assigned</button>
+                <button class="button button--bg-alt">Optional</button>
+              </div>
+              <div class="button-row button-row--equal-child-width">
+                <div class="card card--small-font card--warning">
+                  <div class="card__padded-content">
+                    <div class="card__scroll-text">
+                      Anti Discrimination and Harassment in workplace is not
+                      appreciated and never will be. Please avoid any sort of
+                      this behaviour.
+                    </div>
+                    <div class="button-row button-row__icons">
+                      <button class="button__icon">
+                        <i class="fa-solid fa-book"></i>
+                      </button>
+                      <button class="button__icon">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                      </button>
+                      <button class="button__icon">
+                        <i class="fa-solid fa-square-pen"></i>
+                      </button>
+                    </div>
+                    <div class="button button--card my-10">
+                      Due Date: 27/03/2019
+                    </div>
+                  </div>
+                  <img
+                    class="card__image"
+                    alt="image of man sitting down"
+                    src="https://uc.uxpin.com/files/894737/885812/V16_Privacy-33f2cd.PNG"
+                  />
+                </div>
+                <div class="card card--small-font card--warning">
+                  <div class="card__padded-content">
+                    <div class="card__scroll-text">Discrimination</div>
+                    <div class="button-row button-row__icons">
+                      <button class="button__icon">
+                        <i class="fa-solid fa-book"></i>
+                      </button>
+                      <button class="button__icon">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                      </button>
+                      <button class="button__icon">
+                        <i class="fa-solid fa-square-pen"></i>
+                      </button>
+                    </div>
+                    <div class="button button--card my-10">
+                      Due Date: 27/03/2019
+                    </div>
+                  </div>
+                  <img
+                    class="card__image"
+                    alt="image of man sitting down"
+                    src="https://uc.uxpin.com/files/894737/885812/Discrimination-222e0a.png"
+                  />
+                </div>
+                <div class="card card--small-font card--warning card--selected">
+                  <div class="card__padded-content">
+                    <div class="card__scroll-text">Consumer Protection</div>
+                    <button class="card__module color-primary">
+                      You have 2 modules
+                      <i
+                        class="card__module__icon fa-solid fa-chevron-down"
+                      ></i>
+                    </button>
+                    <div class="button button--card my-10">
+                      Due Date: 27/03/2019
+                    </div>
+                  </div>
+                  <img
+                    class="card__image"
+                    alt="image of man sitting down"
+                    src="https://uc.uxpin.com/files/894737/885812/Consumer-3692ae.png"
+                  />
+                </div>
+                <div class="card card--small-font">
+                  <div class="card__padded-content">
+                    <div class="card__scroll-text">
+                      <p>Work Health and Safety</p>
+                      <p>Test is not currently open</p>
+                      <p>Reopens: 30 Nov 2024</p>
+                    </div>
+                  </div>
+                  <img
+                    class="card__image"
+                    alt="image of man sitting down"
+                    src="https://uc.uxpin.com/files/894737/885812/WHS-a03a56.png"
+                  />
+                </div>
+                <div class="card card--small-font">
+                  <div class="card__padded-content">
+                    <div class="card__scroll-text">Consumer Protection</div>
+                    <div class="button-row button-row__icons">
+                      <button class="button__icon">
+                        <i class="fa-solid fa-book"></i>
+                      </button>
+                      <button class="button__icon">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                      </button>
+                      <button class="button__icon">
+                        <i class="fa-solid fa-square-pen"></i>
+                      </button>
+                    </div>
+                    <div class="button button--card my-10">
+                      Due Date: 27/03/2019
+                    </div>
+                  </div>
+                  <img
+                    class="card__image"
+                    alt="image of man sitting down"
+                    src="https://uc.uxpin.com/files/894737/885812/uxpmod_cad1c49c208b483491bef98da9898e2c_108316009_image-b1e673-8fff4b.png"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="card card--consumer-protection">
+              <div class="padded-content">
+                <h2 class="card__title">Consume Protection</h2>
+                <div class="button-row button-row--equal-child-width">
+                  <div class="card card--small-font card--warning">
+                    <div class="card__padded-content">
+                      <div class="card__scroll-text">Introduction</div>
+                      <div class="button-row button-row__icons">
+                        <button class="button__icon">
+                          <i class="fa-solid fa-book"></i>
+                        </button>
+                        <button class="button__icon">
+                          <i class="fa-solid fa-puzzle-piece"></i>
+                        </button>
+                        <button class="button__icon">
+                          <i class="fa-solid fa-square-pen"></i>
+                        </button>
+                      </div>
+                      <div class="button button--card my-10">
+                        Due Date: 27/03/2019
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card--small-font">
+                    <div class="card__padded-content">
+                      <div class="card__scroll-text">Introduction Part 2</div>
+                      <div class="button-row button-row__icons">
+                        <button class="button__icon">
+                          <i class="fa-solid fa-book"></i>
+                        </button>
+                        <button class="button__icon">
+                          <i class="fa-solid fa-puzzle-piece"></i>
+                        </button>
+                        <button class="button__icon">
+                          <i class="fa-solid fa-square-pen"></i>
+                        </button>
+                      </div>
+                      <div class="button button--card my-10">
+                        Due Date: 27/03/2019
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card__placeholder"></div>
+          </div>
+          <div class="disclaimer">
+            © 2020 <span class="color-primary">Safetrac Pty Ltd. </span> All
+            Rights Reserved.
+            <span class="color-primary">Terms & Conditions</span> |
+            <span class="color-primary">Privacy Policy</span>
+          </div>
+          <div class="calendar-menu flex-container">
+            <button class="calendar-menu__close-box">X</button>
+            <div class="calendar-menu__content">
+              <h2 class="calendar-menu__title">Compliance Calendar</h2>
+              <div class="calendar-menu__entry">
+                <div class="calendar-menu__entry__content">
+                  <p>01/08/2018, 3pm</p>
+                  <p>Compliance Training</p>
+                </div>
+              </div>
+              <div class="calendar-menu__entry calendar-menu__entry--alt-color">
+                <div class="calendar-menu__entry__content">
+                  <p>01/08/2018, 3pm</p>
+                  <p>Compliance Training</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

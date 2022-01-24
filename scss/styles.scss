@@ -1,0 +1,66 @@
+/* Default Styles */
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  background: rgb(245, 247, 248);
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+/* Miscellaneous */
+
+@import "nav.scss";
+@import "header.scss";
+@import "utilities.scss";
+@import "disclaimer.scss";
+@import "components.scss";
+@import "calendar.scss";
+@import "responsive.scss";
